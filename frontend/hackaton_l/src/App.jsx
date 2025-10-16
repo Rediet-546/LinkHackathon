@@ -7,7 +7,6 @@ import { Authentication } from './store/Authentication'
 
 const App = () => {
 
-  // CORRECT CODE
   const {authUser} = Authentication();
   return (
    <>

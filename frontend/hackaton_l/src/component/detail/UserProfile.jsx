@@ -7,15 +7,7 @@ const UserProfile = () => {
   const { userId } = useParams();
   const { currentUserProfile, getUserProfile, loadProfile } = Authentication();
 
-  // useEffect(() => {
-  //   if (userId) {
-  //     // Wrap in async function
-  //     const fetchProfile = async () => {
-  //       await getUserProfile(userId);
-  //     };
-  //     fetchProfile();
-  //   }
-  // }, [userId, getUserProfile]);
+ 
 
   useEffect(() => {
     getUserProfile(userId)
@@ -148,10 +140,3 @@ const UserProfile = () => {
 
 export default UserProfile;
 
-
-// export default UserProfile;
-
-
-// export default UserProfile;
-
-// export default UserProfile;

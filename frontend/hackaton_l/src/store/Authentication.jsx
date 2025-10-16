@@ -291,19 +291,6 @@ markNotificationsRead: async () => {
   }
 },
 
-
-      //   getEmployee: async (employeeId) => {
-      //   console.log('GET EMPLOYEE:', employeeId);
-      //   try {
-      //     const res = await axiosInstance.get(`/employee/getEmployeeById/${employeeId}`);
-      //     set((state) => ({
-      //       employees: { ...state.employees, [employeeId]: res.data.employee }
-      //     }));
-      //     console.log('EMPLOYEE STORED:', get().employees[employeeId]);
-      //   } catch (err) {
-      //     console.error('Error fetching employee', err);
-      //   }
-      // },
     getCurrentUser:async () => {
 
        
